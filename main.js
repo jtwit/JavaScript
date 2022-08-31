@@ -258,3 +258,63 @@ var longest = 0
 console.log(x.split(' '));
 
 
+// additional function exercises
+
+// exercise 19
+
+var number1 = 5
+var number2 = 2
+
+function multiplicationFunction() {
+    var multiplication = number1 * number2
+    console.log(multiplication)
+}
+
+multiplicationFunction()
+
+// exercise 20
+
+var num1 = 2
+var num2 = 8
+
+function multFunction() {
+    return num1 * num2;
+}
+
+console.log(multFunction())
+
+// exercise 21
+
+function anotherMultFuction(a, b) {
+    var anotherMult = a * b;
+    console.log(anotherMult)
+}
+
+anotherMultFuction(1, 3)
+
+// exercise 22
+
+function triangleType(a, b, c) {
+    if (a === b && a === c && b === c) {
+        console.log('Equilateral')
+    } else if (a !== b && a !== c && b !== c) {
+        console.log('Scalene');
+    }
+    else console.log('Isosceles')
+}
+
+triangleType(9, 1, 3)
+
+// exercise 23 incomplete
+
+var text = "Anything"
+
+function replaceFunction(text) {
+    for (var i = 0; i < text.length; i++) {
+        var result = text.replace(/a/gi, 1);
+        console.log(result)
+    }
+
+}
+
+replaceFunction(text)
